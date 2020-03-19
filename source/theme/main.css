@@ -1,0 +1,13 @@
+@import './fonts/index.css';
+
+body {
+    min-height: 100vh;
+    /* background-color: var(--color1); */
+    background-size: 100%;
+    background-color: #161619;
+    color: red;
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    font-family:  Caveat, 'Roboto Condensed', system-ui;
+}

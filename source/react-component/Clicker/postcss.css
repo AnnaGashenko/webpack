@@ -1,0 +1,30 @@
+.clicker {
+    --mainColor: wheat;
+    --headingFontSize: 34px;
+
+    color: var(--mainColor);
+
+    & img {
+        border-radius: 50%;
+        border: 2px solid var(--color1);
+        width: 150px;
+        height: 150px;
+        margin-bottom: 25px;
+    }
+
+    & h1 {
+        font-size: var(--headingFontSize);
+        background-image: url('./react.svg');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: 40px 50%;
+        text-align: left;
+        padding-left: 100px;
+        width: max-content;
+    }
+
+
+    @media (--phonePortrait) {
+        color: red;
+    }
+}
